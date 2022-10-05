@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>STOCK PRICE</h1>
+      <h1>AMD STOCK PRICE</h1>
       {stock && <h2>{formatPrice(stock.price)} USD</h2>}
     </div>
   );
